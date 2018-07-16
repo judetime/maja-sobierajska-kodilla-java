@@ -50,6 +50,8 @@ public class CollectionTestSuite {
         System.out.println(name2.getMethodName());
         //Given
         ArrayList<Integer> oddAndEvenList = new ArrayList<Integer>();
+        oddAndEvenList.add(9);
+        oddAndEvenList.add(10);
         //When
         ArrayList<Integer> actuallList = OddNumbersExterminator.exterminate(oddAndEvenList);
         //Then
